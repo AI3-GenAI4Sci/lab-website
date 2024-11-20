@@ -1,0 +1,1 @@
+Sitemap: https://ai3-genai4sci.github.io/lab-website/sitemap.xml
