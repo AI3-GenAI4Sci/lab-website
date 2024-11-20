@@ -8,8 +8,12 @@ tags:
 ---
 
 <!-- excerpt start -->
-RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.
+MAPLE can be used to predict methylation age and disease risk. It achieves stable and precise results by eliminating batch effects through contrastive learning methods. 
+
+AF2, the champion of the 2021 CASP competition, is also the work that won the 2024 Nobel Prize and holds significant importance for protein engineering.
  <!-- excerpt end -->
+
+The following is an overview of the presentations by Yu Zhang & Bohao Lv:
 
 MAPLE：
 - Predicting an individual's age and disease probability through methylation data
