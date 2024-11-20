@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ai3-genai4sci.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ai3-genai4sci.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2024-11-20T06:53:26+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/feed.xml</id><title type="html">AI3-GenAI4Sci</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">GroupPost20241119-RFDiffusion</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html" rel="alternate" type="text/html" title="GroupPost20241119-RFDiffusion" /><published>2024-11-19T00:00:00+00:00</published><updated>2024-11-20T06:52:20+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ai3-genai4sci.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ai3-genai4sci.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2024-11-20T07:05:35+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/feed.xml</id><title type="html">AI3-GenAI4Sci</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">GroupPost20241119-RFDiffusion</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html" rel="alternate" type="text/html" title="GroupPost20241119-RFDiffusion" /><published>2024-11-19T00:00:00+00:00</published><updated>2024-11-20T07:04:21+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html"><![CDATA[<!-- excerpt start -->
 <p>RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.</p>
 
 <p>Mr.Shi shared the classic RFDiffusion algorithm and provided a brief introduction to</p>
@@ -10,7 +10,36 @@
  <!-- excerpt end --></li>
 </ul>
 
-<p>The specific files can be found here: <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/RFDiffusion-20241119.pdf">RFDiffusion.pdf</a></p>]]></content><author><name>Shaojie Shi</name></author><category term="biology" /><category term="medicine" /><category term="Generative Model" /><summary type="html"><![CDATA[RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" /><media:content medium="image" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">GroupPost20241029-Maple &amp;amp; AlphaFold2</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&AlphaFold2.html" rel="alternate" type="text/html" title="GroupPost20241029-Maple &amp;amp; AlphaFold2" /><published>2024-10-29T00:00:00+00:00</published><updated>2024-11-20T06:52:20+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&amp;AlphaFold2</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&amp;AlphaFold2.html"><![CDATA[<!-- excerpt start -->
+<p>The specific files can be found here: <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/RFDiffusion-20241119.pdf">RFDiffusion.pdf</a></p>]]></content><author><name>Shaojie Shi</name></author><category term="biology" /><category term="medicine" /><category term="Generative Model" /><summary type="html"><![CDATA[RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" /><media:content medium="image" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">GroupPost20241105-AlphaFold2 &amp;amp; PeptideGPT</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/11/05/GroupPost-AlphaFold2&PeptideGPT.html" rel="alternate" type="text/html" title="GroupPost20241105-AlphaFold2 &amp;amp; PeptideGPT" /><published>2024-11-05T00:00:00+00:00</published><updated>2024-11-20T07:04:21+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/11/05/GroupPost-AlphaFold2&amp;PeptideGPT</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/11/05/GroupPost-AlphaFold2&amp;PeptideGPT.html"><![CDATA[<!-- excerpt start -->
+<p>AF2, the champion of the 2021 CASP competition, is also the work that won the 2024 Nobel Prize and holds significant importance for protein engineering.</p>
+
+<p>PeptideGPT is a pipeline to generate protein sequences with specific functions.</p>
+
+<p><!-- excerpt end --></p>
+
+<p>The following is an overview of the presentations by Bohao Lv:</p>
+
+<p>PeptideGPT：</p>
+<ul>
+  <li>Finetuned the existing protein sequence generation model ProtGPT2 using protein data with specific functions to generate protein sequences with specific functions.</li>
+  <li>Utilized bioinformatics knowledge to perform the first round of sequence rationality screening on the generated sequences.</li>
+  <li>Used the structure prediction model ESMFold to perform the second round of rational structure screening on the generated sequences.</li>
+  <li>Employed a classifier to validate the functions of the generated protein sequences.</li>
+</ul>
+
+<p>AF2</p>
+<ul>
+  <li>Decoder part
+    <ul>
+      <li>IPA</li>
+      <li>Backbone predict</li>
+      <li>atom predict</li>
+    </ul>
+  </li>
+  <li>Loss function</li>
+</ul>
+
+<p>The specific files can be found here: <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/AF2-20241119.pdf">AF2.pdf</a> &amp; <a href="https://zhuanlan.zhihu.com/p/4412467760">PeptideGPT Blog</a></p>]]></content><author><name>Bohao Lv</name></author><category term="biology" /><category term="medicine" /><category term="generative-model" /><summary type="html"><![CDATA[AF2, the champion of the 2021 CASP competition, is also the work that won the 2024 Nobel Prize and holds significant importance for protein engineering.]]></summary></entry><entry><title type="html">GroupPost20241029-Maple &amp;amp; AlphaFold2</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&AlphaFold2.html" rel="alternate" type="text/html" title="GroupPost20241029-Maple &amp;amp; AlphaFold2" /><published>2024-10-29T00:00:00+00:00</published><updated>2024-11-20T07:04:21+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&amp;AlphaFold2</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&amp;AlphaFold2.html"><![CDATA[<!-- excerpt start -->
 <p>MAPLE can be used to predict methylation age and disease risk. It achieves stable and precise results by eliminating batch effects through contrastive learning methods.</p>
 
 <p>AF2, the champion of the 2021 CASP competition, is also the work that won the 2024 Nobel Prize and holds significant importance for protein engineering.
