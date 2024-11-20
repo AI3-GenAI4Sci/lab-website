@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ai3-genai4sci.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ai3-genai4sci.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2024-11-20T04:56:05+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/feed.xml</id><title type="html">AI3-GenAI4Sci</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">GroupPost20241119-RFDiffusion</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html" rel="alternate" type="text/html" title="GroupPost20241119-RFDiffusion" /><published>2024-11-19T00:00:00+00:00</published><updated>2024-11-20T04:54:54+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ai3-genai4sci.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ai3-genai4sci.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2024-11-20T04:56:16+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/feed.xml</id><title type="html">AI3-GenAI4Sci</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">GroupPost20241119-RFDiffusion</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html" rel="alternate" type="text/html" title="GroupPost20241119-RFDiffusion" /><published>2024-11-19T00:00:00+00:00</published><updated>2024-11-20T04:55:10+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/11/19/GroupPost-RFDiffusion.html"><![CDATA[<!-- excerpt start -->
 <p>RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.</p>
 
 <p>Mr.Shi shared the classic RFDiffusion algorithm and provided a brief introduction to</p>
@@ -10,4 +10,27 @@
  <!-- excerpt end --></li>
 </ul>
 
-<p>The specific files can be found here: <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/RFDiffusion-20241119.pdf">RFDiffusion.pdf</a></p>]]></content><author><name>Shaojie Shi</name></author><category term="biology" /><category term="medicine" /><category term="Generative Model" /><summary type="html"><![CDATA[RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" /><media:content medium="image" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>The specific files can be found here: <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/RFDiffusion-20241119.pdf">RFDiffusion.pdf</a></p>]]></content><author><name>Shaojie Shi</name></author><category term="biology" /><category term="medicine" /><category term="Generative Model" /><summary type="html"><![CDATA[RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" /><media:content medium="image" url="https://ai3-genai4sci.github.io/lab-website/images/RFDiffusion.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">GroupPost20241029-Maple &amp;amp; AlphaFold2</title><link href="https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&AlphaFold2.html" rel="alternate" type="text/html" title="GroupPost20241029-Maple &amp;amp; AlphaFold2" /><published>2024-10-29T00:00:00+00:00</published><updated>2024-11-20T04:55:10+00:00</updated><id>https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&amp;AlphaFold2</id><content type="html" xml:base="https://ai3-genai4sci.github.io/lab-website/2024/10/29/GroupPost-MAPLE&amp;AlphaFold2.html"><![CDATA[<!-- excerpt start -->
+<p>RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.
+ <!-- excerpt end --></p>
+
+<p>MAPLE：</p>
+<ul>
+  <li>Predicting an individual’s age and disease probability through methylation data</li>
+  <li>Using contrastive learning methods to eliminate batch effects between methylation data from different sources</li>
+  <li>Capturing biological factors related to disease risk using MAPLE</li>
+  <li>Analyzing MAPLE results under the framework of aging biology</li>
+</ul>
+
+<p>AF2</p>
+<ul>
+  <li>Input feature construction: Multiple Sequence Alignment (MSA) + Pair representation</li>
+  <li>Encoding part Evoformer:
+    <ul>
+      <li>MSA representation update: seq-based pair-bias self-attention + residues-based self-attention</li>
+      <li>Pair representation update: Triangular multiplicative + Triangular self-attention</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The specific files can be found here: <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/MAPLE-20241119.pdf">MAPLE.pdf</a> &amp; <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/AF2-20241119.pdf">AF2.pdf</a></p>]]></content><author><name>Yu Zhang &amp; Bohao Lv</name></author><category term="biology" /><category term="medicine" /><category term="contrastive learning" /><summary type="html"><![CDATA[RFdiffusion is a general protein design framework based on diffusion models, capable of de novo design of binders and higher-order symmetric cyclic polymers, among other types of proteins.]]></summary></entry></feed>
