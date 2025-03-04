@@ -56,4 +56,4 @@ The report covers several key strategies for COT compression:
 * Provides a comprehensive overview of COT compression technologies, highlighting the latest advancements in the field.
 * Offers practical insights for optimizing LLM performance and efficiency through appropriate compression strategies.
  
-The specific files can be found here: [Trend Report.pdf](https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/Trend_Report_of_Chain_Compression_in_reasoning_model.pdf)
+The specific files can be found here: [Trend Report.pdf](https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/TrendReport_ChainCompression-20250304.pdf)
