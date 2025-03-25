@@ -39,125 +39,32 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>GroupPost20240304-COT Compress | AI3-GenAI4Sci</title>
+<title>GroupPost20250325-WorkAlign | AI3-GenAI4Sci</title>
 
 <link rel="icon" href="/lab-website/images/icon.png">
 
-<meta name="title" content="GroupPost20240304-COT Compress">
+<meta name="title" content="GroupPost20250325-WorkAlign">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="GroupPost20240304-COT Compress">
+<meta property="og:title" content="GroupPost20250325-WorkAlign">
 <meta property="og:site_title" content="AI3-GenAI4Sci">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://ai3-genai4sci.github.io/lab-website">
 <meta property="og:image" content="/lab-website/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="GroupPost20240304-COT Compress">
+<meta property="twitter:title" content="GroupPost20250325-WorkAlign">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://ai3-genai4sci.github.io/lab-website">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/lab-website/images/share.jpg">
 
 
-  <meta name="author" content='&lt;!-- excerpt start --&gt;
-
-&lt;p&gt;&lt;strong&gt;Report Overview&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This report explores Chain-of-Thought (COT) compression techniques aimed at reducing the computational cost and enhancing the efficiency of large language models (LLMs) in complex reasoning tasks. While COT improves LLM performance by generating intermediate reasoning steps, the length of these reasoning chains leads to increased computational demands. COT compression seeks to shorten these chains without significantly impacting model performance.&lt;/p&gt;
-
-&lt;p&gt;&lt;!-- excerpt end --&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Strategies and Methods&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The report covers several key strategies for COT compression:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Explicit Compression During Training:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Knowledge Distillation:&lt;/strong&gt; This involves transferring knowledge from a complex “System 2” model (which generates COT) to a more efficient “System 1” model (which directly outputs results), thereby speeding up the inference process.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Meta’s “Distilling System 2 into System 1.”&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Step-by-Step Training:&lt;/strong&gt; This method iteratively trains models to identify and skip redundant reasoning steps, effectively shortening the reasoning pathway.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Research by Qiu et al. in “Can Language Models Learn to Skip Steps?”.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Data-Conditioned Training:&lt;/strong&gt; Utilizes GPT-4 to create pairs of long and short COT data, training models to generate reasoning chains of varying lengths.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Research by BeiKe, “C3OT: Generating Shorter Chain-of-Thought without Compromising Effectiveness.”&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Hidden State Compression:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Implicit COT:&lt;/strong&gt; Gradually internalizes the explicit COT reasoning process into the model’s hidden states, eliminating the need for explicit reasoning chains.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Research by Yejin Choi et al., “From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step.”&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Compressed COT (CCOT):&lt;/strong&gt; Employs densely semantic tokens to represent compressed reasoning, compressing reasoning chains within the hidden space.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Research by JHU, “Compressed Chain of Thought: Efficient Reasoning Through Dense Representations.”&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dynamic Length Control:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;COT-Valve:&lt;/strong&gt; Introduces adjustable parameters within the model’s parameter space to dynamically manage the length of reasoning chains.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Research by NUS, “COT-Valve: Length-Compressible Chain-of-Thought Tuning.”&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reinforcement Learning Compression:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;O1-Pruner:&lt;/strong&gt; Designs a length-harmonizing reward function to guide models in generating shorter yet accurate reasoning sequences through reinforcement learning.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Research by Sun Yat-sen University, “O1-Pruner: Length-Harmonizing Fine-Tuning for O1-Like Reasoning Pruning.”&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Kimi k1.5:&lt;/strong&gt; Explores various reinforcement learning compression strategies, including model merging, shortest rejection sampling, DPO, and Long2short RL.
-        &lt;ul&gt;
-          &lt;li&gt;Notable work: Kimi 1.5 Technical Report.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Research Trends&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A shift from explicit token compression to implicit representation compression, focusing on more efficient reasoning methods.&lt;/li&gt;
-  &lt;li&gt;The growing prominence of reinforcement learning in reasoning chain compression.&lt;/li&gt;
-  &lt;li&gt;The exploration of multi-agent frameworks for social reasoning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Future Outlook&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;As models continue to scale, managing inference costs will become increasingly critical.&lt;/li&gt;
-  &lt;li&gt;The development of more effective compression techniques is essential for deploying LLMs in resource-constrained environments.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Report Significance&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Provides a comprehensive overview of COT compression technologies, highlighting the latest advancements in the field.&lt;/li&gt;
-  &lt;li&gt;Offers practical insights for optimizing LLM performance and efficiency through appropriate compression strategies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The specific files can be found here: &lt;a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/TrendReport_ChainCompression-20250304.pdf"&gt;Trend Report.pdf&lt;/a&gt;&lt;/p&gt;
+  <meta name="author" content='&lt;p&gt;Internal Report - Meeting Minutes Link: &lt;a href="https://q47cvaon6v.feishu.cn/wiki/KANIwrOd1iAQ8DkBzidcI8Sanqe?from=from_copylink"&gt;feishu docs&lt;/a&gt;. To view or edit, please request access.&lt;/p&gt;
 '>
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2025-03-25T02:20:38+00:00">
-  <meta property="article:published_time" content="2025-03-04T00:00:00+00:00">
+  <meta property="article:published_time" content="2025-03-25T00:00:00+00:00">
   <meta property="article:modified_time" content="2025-03-25T02:20:38+00:00">
   <meta name="revised" content="2025-03-25T02:20:38+00:00">
 
@@ -167,13 +74,13 @@
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "GroupPost20240304-COT Compress" },
-      "datePublished": "2025-03-04T00:00:00+00:00",
+      "author": { "@type": "Person", "name": "GroupPost20250325-WorkAlign" },
+      "datePublished": "2025-03-25T00:00:00+00:00",
       "dateModified": "2025-03-25T02:20:38+00:00",
     
-    "name": "GroupPost20240304-COT Compress",
+    "name": "GroupPost20250325-WorkAlign",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "GroupPost20240304-COT Compress",
+    "headline": "GroupPost20250325-WorkAlign",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/lab-website/images/icon.png" }
@@ -562,7 +469,7 @@
 -->
 
 
-<h1 class="center">GroupPost20240304-COT Compress</h1>
+<h1 class="center">GroupPost20250325-WorkAlign</h1>
 
 <div class="post-info">
   
@@ -570,7 +477,7 @@
     
       <span data-tooltip="Author">
         <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Rui Xu</span>
+        <span>All team members</span>
       </span>
     
   
@@ -581,15 +488,10 @@
   
     <span data-tooltip="Originally published on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>March 04, 2025</span>
+      <span>March 25, 2025</span>
     </span>
   
 
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>March 25, 2025</span>
-    </span>
   
 </div>
 
@@ -599,16 +501,16 @@
 
   <div class="tags" data-link="/lab-website/blog">
     
+      <a href="blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+        biology
+      </a>
+    
+      <a href="blog?search=%22tag:%20generative-model%22" class="tag" data-tooltip='Show items with the tag "generative-model"'>
+        generative-model
+      </a>
+    
       <a href="blog?search=%22tag:%20llm%22" class="tag" data-tooltip='Show items with the tag "llm"'>
         llm
-      </a>
-    
-      <a href="blog?search=%22tag:%20reinforce-learning%22" class="tag" data-tooltip='Show items with the tag "reinforce-learning"'>
-        reinforce-learning
-      </a>
-    
-      <a href="blog?search=%22tag:%20cot%22" class="tag" data-tooltip='Show items with the tag "cot"'>
-        cot
       </a>
     
   </div>
@@ -626,112 +528,7 @@
 -->
 
 
-<!-- excerpt start -->
-
-<p><strong>Report Overview</strong></p>
-
-<p>This report explores Chain-of-Thought (COT) compression techniques aimed at reducing the computational cost and enhancing the efficiency of large language models (LLMs) in complex reasoning tasks. While COT improves LLM performance by generating intermediate reasoning steps, the length of these reasoning chains leads to increased computational demands. COT compression seeks to shorten these chains without significantly impacting model performance.</p>
-
-<p><!-- excerpt end --></p>
-
-<p><strong>Key Strategies and Methods</strong></p>
-
-<p>The report covers several key strategies for COT compression:</p>
-
-<ol>
-  <li>
-<strong>Explicit Compression During Training:</strong>
-    <ul>
-      <li>
-<strong>Knowledge Distillation:</strong> This involves transferring knowledge from a complex “System 2” model (which generates COT) to a more efficient “System 1” model (which directly outputs results), thereby speeding up the inference process.
-        <ul>
-          <li>Notable work: Meta’s “Distilling System 2 into System 1.”</li>
-        </ul>
-      </li>
-      <li>
-<strong>Step-by-Step Training:</strong> This method iteratively trains models to identify and skip redundant reasoning steps, effectively shortening the reasoning pathway.
-        <ul>
-          <li>Notable work: Research by Qiu et al. in “Can Language Models Learn to Skip Steps?”.</li>
-        </ul>
-      </li>
-      <li>
-<strong>Data-Conditioned Training:</strong> Utilizes GPT-4 to create pairs of long and short COT data, training models to generate reasoning chains of varying lengths.
-        <ul>
-          <li>Notable work: Research by BeiKe, “C3OT: Generating Shorter Chain-of-Thought without Compromising Effectiveness.”</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-<strong>Hidden State Compression:</strong>
-    <ul>
-      <li>
-<strong>Implicit COT:</strong> Gradually internalizes the explicit COT reasoning process into the model’s hidden states, eliminating the need for explicit reasoning chains.
-        <ul>
-          <li>Notable work: Research by Yejin Choi et al., “From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step.”</li>
-        </ul>
-      </li>
-      <li>
-<strong>Compressed COT (CCOT):</strong> Employs densely semantic tokens to represent compressed reasoning, compressing reasoning chains within the hidden space.
-        <ul>
-          <li>Notable work: Research by JHU, “Compressed Chain of Thought: Efficient Reasoning Through Dense Representations.”</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-<strong>Dynamic Length Control:</strong>
-    <ul>
-      <li>
-<strong>COT-Valve:</strong> Introduces adjustable parameters within the model’s parameter space to dynamically manage the length of reasoning chains.
-        <ul>
-          <li>Notable work: Research by NUS, “COT-Valve: Length-Compressible Chain-of-Thought Tuning.”</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-<strong>Reinforcement Learning Compression:</strong>
-    <ul>
-      <li>
-<strong>O1-Pruner:</strong> Designs a length-harmonizing reward function to guide models in generating shorter yet accurate reasoning sequences through reinforcement learning.
-        <ul>
-          <li>Notable work: Research by Sun Yat-sen University, “O1-Pruner: Length-Harmonizing Fine-Tuning for O1-Like Reasoning Pruning.”</li>
-        </ul>
-      </li>
-      <li>
-<strong>Kimi k1.5:</strong> Explores various reinforcement learning compression strategies, including model merging, shortest rejection sampling, DPO, and Long2short RL.
-        <ul>
-          <li>Notable work: Kimi 1.5 Technical Report.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<p><strong>Key Research Trends</strong></p>
-
-<ul>
-  <li>A shift from explicit token compression to implicit representation compression, focusing on more efficient reasoning methods.</li>
-  <li>The growing prominence of reinforcement learning in reasoning chain compression.</li>
-  <li>The exploration of multi-agent frameworks for social reasoning.</li>
-</ul>
-
-<p><strong>Future Outlook</strong></p>
-
-<ul>
-  <li>As models continue to scale, managing inference costs will become increasingly critical.</li>
-  <li>The development of more effective compression techniques is essential for deploying LLMs in resource-constrained environments.</li>
-</ul>
-
-<p><strong>Report Significance</strong></p>
-
-<ul>
-  <li>Provides a comprehensive overview of COT compression technologies, highlighting the latest advancements in the field.</li>
-  <li>Offers practical insights for optimizing LLM performance and efficiency through appropriate compression strategies.</li>
-</ul>
-
-<p>The specific files can be found here: <a href="https://github.com/AI3-GenAI4Sci/lab-website/blob/main/docs/TrendReport_ChainCompression-20250304.pdf">Trend Report.pdf</a></p>
+<p>Internal Report - Meeting Minutes Link: <a href="https://q47cvaon6v.feishu.cn/wiki/KANIwrOd1iAQ8DkBzidcI8Sanqe?from=from_copylink">feishu docs</a>. To view or edit, please request access.</p>
   </section>
 
   
@@ -750,17 +547,12 @@
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/lab-website/2025/02/25/GroupPost-WorkAlign.html">
-        GroupPost20250225-WorkAlign
+      <a href="/lab-website/2025/03/04/GroupPost-COT-Compress.html">
+        GroupPost20240304-COT Compress
       </a>
     
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/lab-website/2025/03/25/GroupPost-WorkAlign.html">
-        GroupPost20250325-WorkAlign
-      </a>
     
   </span>
 </div>
